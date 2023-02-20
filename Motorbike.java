@@ -3,7 +3,7 @@ import java.util.Random;
 public class Motorbike extends Vehicle {
 
     static int Speed = new Random().nextInt(5, 10 + 1);
-    static int Adhesion = new Random().nextInt(5, 10 + 1);
+    static int Adhesion = new Random().nextInt(1, 5 + 1);
 
     public Motorbike(String pilotName) {
         super(Speed, Adhesion, pilotName);
